@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Coloured Bees Consulting</title>
-  <meta name="description" content="Coloured Bees Consulting — clear thinking and hands-on delivery for teams that want to move." />
+  <meta name="description" content="Coloured Bees — a venture studio and startup consultancy building at the frontier of AI, consumer tech, and fintech & Web3." />
   <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
 
   <!-- Brand fonts -->
@@ -147,19 +147,14 @@
     }
     .service p { margin: 0; color: var(--stone); }
 
-    /* Approach — Violet-accented */
-    .approach {
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+
+    /* Focus — Violet-accented */
+    .focus {
       padding: 88px 0;
     }
-    .approach .col {
-      max-width: 60ch;
-    }
-    .approach h2 {
-      font-size: clamp(28px, 4vw, 40px);
-      margin-bottom: 20px;
-    }
-    .approach .label { color: var(--violet); }
-    .approach p { color: var(--stone); font-size: 19px; }
+    .label-v { color: var(--violet); }
+    .hex-v { background: var(--violet); }
 
     /* Footer — Ink bg */
     footer {
@@ -192,9 +187,9 @@
   <section class="hero">
     <div class="wrap">
       <img class="swarm" src="assets/bee-swarm.svg" alt="" aria-hidden="true" />
-      <p class="label">Consulting &middot; Strategy &middot; Delivery</p>
-      <h1>Clear thinking, done by hand.</h1>
-      <p class="lede">Coloured Bees Consulting helps teams turn tangled problems into simple plans — and then does the work alongside you to make them real.</p>
+      <p class="label">Venture Studio &middot; Startup Consulting</p>
+      <h1>We build startups — and help founders build theirs.</h1>
+      <p class="lede">Coloured Bees is a venture studio and startup consultancy working at the frontier of AI, consumer tech, and fintech &amp; Web3. We turn early ideas into companies, and help founders move faster.</p>
       <span class="btn">Let's talk</span>
     </div>
   </section>
@@ -203,30 +198,39 @@
   <section class="services">
     <div class="wrap">
       <p class="label">What we do</p>
-      <h2 style="font-size:clamp(28px,4vw,40px);max-width:18ch;">Small team, sharp focus, real outcomes.</h2>
-      <div class="grid">
+      <h2 style="font-size:clamp(28px,4vw,40px);max-width:18ch;">Two ways we turn ideas into companies.</h2>
+      <div class="grid grid-2">
         <div class="service">
-          <h3><span class="hex"></span>Strategy</h3>
-          <p>Cut through the noise. We frame the real question, weigh the options, and leave you with a plan you can actually act on.</p>
+          <h3><span class="hex"></span>Venture Studio</h3>
+          <p>We co-found and build companies from zero — bringing capital, craft, and hands-on operators to turn a sharp idea into a shipping product.</p>
         </div>
         <div class="service">
-          <h3><span class="hex"></span>Delivery</h3>
-          <p>Plans are cheap; execution is everything. We roll up our sleeves and build the thing next to your team.</p>
-        </div>
-        <div class="service">
-          <h3><span class="hex"></span>Enablement</h3>
-          <p>We leave capability behind, not dependency — so your people keep moving long after we're gone.</p>
+          <h3><span class="hex"></span>Startup Consulting</h3>
+          <p>We advise founders and teams on strategy, product, and go-to-market — the outside perspective that helps you move with conviction.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- APPROACH — Violet accent -->
-  <section class="approach">
-    <div class="wrap col">
-      <p class="label">How we work</p>
-      <h2>No decks for the sake of decks.</h2>
-      <p>We keep the process calm and the output honest. Fewer meetings, clearer decisions, and work that holds up under pressure. That's the whole idea.</p>
+  <!-- FOCUS — Violet accent -->
+  <section class="focus">
+    <div class="wrap">
+      <p class="label label-v">Where we focus</p>
+      <h2 style="font-size:clamp(28px,4vw,40px);max-width:16ch;">Three sectors we know deeply.</h2>
+      <div class="grid">
+        <div class="service">
+          <h3><span class="hex hex-v"></span>AI</h3>
+          <p>Applied AI products and the teams building them — from first prototype to production.</p>
+        </div>
+        <div class="service">
+          <h3><span class="hex hex-v"></span>Consumer Tech</h3>
+          <p>Products people genuinely love to use, designed to grow and scale.</p>
+        </div>
+        <div class="service">
+          <h3><span class="hex hex-v"></span>Fintech &amp; Web3</h3>
+          <p>New financial rails and on-chain products, built for trust and speed.</p>
+        </div>
+      </div>
     </div>
   </section>
 
