@@ -1,15 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 106" role="img" aria-label="Coloured Bees mark">
-  <g>
-    <clipPath id="hexC">
-      <polygon points="52,0 78,15 78,45 52,60 26,45 26,15"/>
-    </clipPath>
-    <g clip-path="url(#hexC)">
-      <rect x="26" y="0" width="52" height="15" fill="#1F1B16"/>
-      <rect x="26" y="15" width="52" height="15" fill="#E8A013"/>
-      <rect x="26" y="30" width="52" height="15" fill="#1F1B16"/>
-      <rect x="26" y="45" width="52" height="15" fill="#E8A013"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 158" role="img" aria-label="Coloured Bees robot bee mark — hexagon variant">
+  <!-- wings: teal + violet, echoing the brand hex cluster -->
+  <ellipse cx="26" cy="72" rx="26" ry="13" fill="#0F7B6C" opacity="0.4" transform="rotate(-28 26 72)"/>
+  <ellipse cx="114" cy="72" rx="26" ry="13" fill="#6B4FA3" opacity="0.4" transform="rotate(28 114 72)"/>
+
+  <!-- antennae -->
+  <g fill="none" stroke="#E8A013" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="62,24 55,15 61,8"/>
+    <polyline points="78,24 85,15 79,8"/>
   </g>
-  <polygon points="26,46 52,61 52,91 26,106 0,91 0,61" fill="#0F7B6C"/>
-  <polygon points="78,46 104,61 104,91 78,106 52,91 52,61" fill="#6B4FA3"/>
+  <circle cx="61" cy="7" r="4.5" fill="#E8A013"/>
+  <circle cx="79" cy="7" r="4.5" fill="#E8A013"/>
+
+  <!-- body: the brand's striped honeycomb cell -->
+  <clipPath id="bodyHexA"><polygon points="70,84 96,99 96,129 70,144 44,129 44,99"/></clipPath>
+  <g clip-path="url(#bodyHexA)">
+    <rect x="44" y="84" width="52" height="15" fill="#E8A013"/>
+    <rect x="44" y="99" width="52" height="15" fill="#1F1B16"/>
+    <rect x="44" y="114" width="52" height="15" fill="#E8A013"/>
+    <rect x="44" y="129" width="52" height="15" fill="#1F1B16"/>
+  </g>
+
+  <!-- head: rounded hexagon -->
+  <polygon points="70,18 98,34 98,66 70,82 42,66 42,34" fill="#1F1B16" stroke="#1F1B16" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- cheeks -->
+  <circle cx="48" cy="59" r="4" fill="#6E675C" opacity="0.45"/>
+  <circle cx="92" cy="59" r="4" fill="#6E675C" opacity="0.45"/>
+
+  <!-- visor + eyes -->
+  <rect x="50" y="34" width="40" height="22" rx="11" fill="#0E0C09" stroke="#E8A013" stroke-width="2"/>
+  <rect x="56" y="39" width="13" height="13" rx="3.5" fill="#E8A013"/>
+  <path d="M 62.5 40.5 V 50.5 M 57.5 45.5 H 68.5" stroke="#1F1B16" stroke-width="2"/>
+  <rect x="74" y="41" width="9" height="9" rx="2.5" fill="#E8A013"/>
+
+  <!-- smile -->
+  <path d="M 63 66 Q 70 72 77 66" fill="none" stroke="#E8A013" stroke-width="2.5" stroke-linecap="round"/>
 </svg>
