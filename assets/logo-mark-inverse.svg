@@ -3,14 +3,6 @@
   <ellipse cx="26" cy="72" rx="26" ry="13" fill="#E8A013" opacity="0.4" transform="rotate(-28 26 72)"/>
   <ellipse cx="114" cy="72" rx="26" ry="13" fill="#E8A013" opacity="0.4" transform="rotate(28 114 72)"/>
 
-  <!-- antennae -->
-  <g fill="none" stroke="#E8A013" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="62,24 55,15 61,8"/>
-    <polyline points="78,24 85,15 79,8"/>
-  </g>
-  <circle cx="61" cy="7" r="4.5" fill="#E8A013"/>
-  <circle cx="79" cy="7" r="4.5" fill="#E8A013"/>
-
   <!-- body: striped honeycomb cell (ink swapped to paper) -->
   <clipPath id="cbBodyHexInv"><polygon points="70,84 96,99 96,129 70,144 44,129 44,99"/></clipPath>
   <g clip-path="url(#cbBodyHexInv)">
