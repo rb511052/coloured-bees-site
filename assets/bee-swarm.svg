@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-label="Coloured bee swarm">
+  <defs>
+    <g id="hexbee">
+      <line x1="30" y1="12" x2="24" y2="0" stroke="#1F1B16" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="42" y1="12" x2="48" y2="0" stroke="#1F1B16" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="36,10 48,17 48,31 36,38 24,31 24,17" fill="#1F1B16"/>
+      <polygon points="36,34 48,41 48,55 36,62 24,55 24,41" fill="#E8A013"/>
+      <polygon points="36,58 48,65 48,79 36,86 24,79 24,65" fill="#1F1B16"/>
+    </g>
+  </defs>
+
+  <!-- flight paths -->
+  <path d="M 40 200 C 120 80, 200 60, 260 120" fill="none" stroke="#E8A013" stroke-width="3" stroke-dasharray="1 10" stroke-linecap="round"/>
+  <path d="M 180 230 C 280 160, 340 200, 400 140" fill="none" stroke="#0F7B6C" stroke-width="3" stroke-dasharray="1 10" stroke-linecap="round"/>
+  <path d="M 340 60 C 420 20, 500 60, 545 130" fill="none" stroke="#6B4FA3" stroke-width="3" stroke-dasharray="1 10" stroke-linecap="round"/>
+
+  <!-- bee 1: honey wings -->
+  <g transform="translate(240,90) rotate(30)">
+    <ellipse cx="14" cy="40" rx="14" ry="8" fill="#E8A013" opacity="0.85" transform="rotate(-35 14 40)"/>
+    <ellipse cx="58" cy="40" rx="14" ry="8" fill="#E8A013" opacity="0.85" transform="rotate(35 58 40)"/>
+    <use href="#hexbee"/>
+  </g>
+  <!-- bee 2: teal wings -->
+  <g transform="translate(380,120) rotate(-15)">
+    <ellipse cx="14" cy="40" rx="14" ry="8" fill="#0F7B6C" opacity="0.85" transform="rotate(-35 14 40)"/>
+    <ellipse cx="58" cy="40" rx="14" ry="8" fill="#0F7B6C" opacity="0.85" transform="rotate(35 58 40)"/>
+    <use href="#hexbee"/>
+  </g>
+  <!-- bee 3: violet wings -->
+  <g transform="translate(520,110) rotate(20)">
+    <ellipse cx="14" cy="40" rx="14" ry="8" fill="#6B4FA3" opacity="0.85" transform="rotate(-35 14 40)"/>
+    <ellipse cx="58" cy="40" rx="14" ry="8" fill="#6B4FA3" opacity="0.85" transform="rotate(35 58 40)"/>
+    <use href="#hexbee"/>
+  </g>
+</svg>

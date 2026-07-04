@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Node (for future tooling)
+node_modules/
+dist/
+.env
+.env.local

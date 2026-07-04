@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 106" role="img" aria-label="Coloured Bees mark">
+  <g>
+    <clipPath id="hexC">
+      <polygon points="52,0 78,15 78,45 52,60 26,45 26,15"/>
+    </clipPath>
+    <g clip-path="url(#hexC)">
+      <rect x="26" y="0" width="52" height="15" fill="#1F1B16"/>
+      <rect x="26" y="15" width="52" height="15" fill="#E8A013"/>
+      <rect x="26" y="30" width="52" height="15" fill="#1F1B16"/>
+      <rect x="26" y="45" width="52" height="15" fill="#E8A013"/>
+    </g>
+  </g>
+  <polygon points="26,46 52,61 52,91 26,106 0,91 0,61" fill="#0F7B6C"/>
+  <polygon points="78,46 104,61 104,91 78,106 52,91 52,61" fill="#6B4FA3"/>
+</svg>

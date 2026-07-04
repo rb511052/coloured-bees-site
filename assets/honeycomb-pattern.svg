@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" role="img" aria-label="Honeycomb background pattern">
+  <!-- Sparse honeycomb band, mostly outline, few coloured cells -->
+  <g stroke="#1F1B16" stroke-opacity="0.12" stroke-width="2" fill="none">
+    <polygon points="30,20 60,37 60,71 30,88 0,71 0,37"/>
+    <polygon points="90,20 120,37 120,71 90,88 60,71 60,37"/>
+    <polygon points="150,20 180,37 180,71 150,88 120,71 120,37"/>
+    <polygon points="210,20 240,37 240,71 210,88 180,71 180,37"/>
+    <polygon points="270,20 300,37 300,71 270,88 240,71 240,37"/>
+    <polygon points="330,20 360,37 360,71 330,88 300,71 300,37"/>
+    <polygon points="390,20 420,37 420,71 390,88 360,71 360,37"/>
+    <polygon points="450,20 480,37 480,71 450,88 420,71 420,37"/>
+    <polygon points="510,20 540,37 540,71 510,88 480,71 480,37"/>
+    <polygon points="570,20 600,37 600,71 570,88 540,71 540,37"/>
+    <polygon points="60,72 90,89 90,123 60,140 30,123 30,89"/>
+    <polygon points="120,72 150,89 150,123 120,140 90,123 90,89"/>
+    <polygon points="180,72 210,89 210,123 180,140 150,123 150,89"/>
+    <polygon points="240,72 270,89 270,123 240,140 210,123 210,89"/>
+    <polygon points="300,72 330,89 330,123 300,140 270,123 270,89"/>
+    <polygon points="360,72 390,89 390,123 360,140 330,123 330,89"/>
+    <polygon points="420,72 450,89 450,123 420,140 390,123 390,89"/>
+    <polygon points="480,72 510,89 510,123 480,140 450,123 450,89"/>
+    <polygon points="540,72 570,89 570,123 540,140 510,123 510,89"/>
+  </g>
+  <!-- coloured accents -->
+  <polygon points="150,20 180,37 180,71 150,88 120,71 120,37" fill="#E8A013"/>
+  <polygon points="360,72 390,89 390,123 360,140 330,123 330,89" fill="#0F7B6C"/>
+  <polygon points="510,20 540,37 540,71 510,88 480,71 480,37" fill="#6B4FA3"/>
+</svg>

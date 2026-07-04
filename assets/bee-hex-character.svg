@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img" aria-label="Hexagon bee">
+  <!-- Bee built entirely from hexagons -->
+  <g transform="translate(20,10) rotate(15 100 90)">
+    <!-- antennae -->
+    <line x1="78" y1="30" x2="66" y2="8" stroke="#1F1B16" stroke-width="4" stroke-linecap="round"/>
+    <line x1="102" y1="30" x2="114" y2="8" stroke="#1F1B16" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="66" cy="8" r="5" fill="#1F1B16"/>
+    <circle cx="114" cy="8" r="5" fill="#1F1B16"/>
+    <!-- wings: teal + violet hexagons -->
+    <polygon points="34,52 56,64 56,88 34,100 12,88 12,64" fill="#0F7B6C" opacity="0.9"/>
+    <polygon points="146,52 168,64 168,88 146,100 124,88 124,64" fill="#6B4FA3" opacity="0.9"/>
+    <!-- head: black hexagon -->
+    <polygon points="90,26 112,38 112,62 90,74 68,62 68,38" fill="#1F1B16"/>
+    <!-- eyes -->
+    <circle cx="82" cy="48" r="4.5" fill="#FFFFFF"/>
+    <circle cx="98" cy="48" r="4.5" fill="#FFFFFF"/>
+    <circle cx="83" cy="49" r="2" fill="#1F1B16"/>
+    <circle cx="99" cy="49" r="2" fill="#1F1B16"/>
+    <!-- body: alternating honey and black hexagons -->
+    <polygon points="90,66 112,78 112,102 90,114 68,102 68,78" fill="#E8A013"/>
+    <polygon points="90,106 112,118 112,142 90,154 68,142 68,118" fill="#1F1B16"/>
+    <polygon points="90,146 112,158 112,182 90,194 68,182 68,158" fill="#E8A013"/>
+    <!-- stinger -->
+    <polygon points="84,190 96,190 90,204" fill="#1F1B16"/>
+  </g>
+</svg>
