@@ -153,16 +153,9 @@
       max-width: 56ch;
       margin: 20px 0 0;
     }
-    .proj-name {
-      color: var(--ink);
-      text-decoration: none;
-    }
-    .proj-name:hover {
-      text-decoration: underline;
-      text-decoration-color: var(--honey);
-      text-decoration-thickness: 3px;
-      text-underline-offset: 4px;
-    }
+    .proj-logo-link { display: inline-block; }
+    .proj-logo-link:hover { opacity: 0.75; }
+    .proj-logo { height: 34px; width: auto; display: block; margin-bottom: 14px; }
 
     /* Footer — Ink bg */
     footer {
@@ -266,16 +259,16 @@
       <p class="intro">We build as owners, not advisors — Coloured Bees serves on the board of all three companies.</p>
       <div class="grid">
         <div class="service">
-          <h3><span class="hex hex-h"></span><a class="proj-name" href="https://followalice.com" target="_blank" rel="noopener">Follow Alice</a></h3>
-          <p>Boutique adventure travel — small-group trips from Kilimanjaro to Everest Base Camp.</p>
+          <a class="proj-logo-link" href="https://followalice.com" target="_blank" rel="noopener"><img class="proj-logo" src="assets/projects/follow-alice.svg" alt="Follow Alice" /></a>
+          <p>Adventure travel rebuilt as a digital-first consumer brand.</p>
         </div>
         <div class="service">
-          <h3><span class="hex hex-h"></span><a class="proj-name" href="https://chaiz.com" target="_blank" rel="noopener">Chaiz</a></h3>
-          <p>The online marketplace for extended vehicle protection — compare, choose, covered.</p>
+          <a class="proj-logo-link" href="https://chaiz.com" target="_blank" rel="noopener"><img class="proj-logo" src="assets/projects/chaiz.svg" alt="Chaiz" /></a>
+          <p>Powering vehicle protection everywhere consumers shop.</p>
         </div>
         <div class="service">
-          <h3><span class="hex hex-h"></span><a class="proj-name" href="https://shift-capital.ai" target="_blank" rel="noopener">Shift Capital</a></h3>
-          <p>Premium financing reinvented — AI-powered financing for vehicle service contracts.</p>
+          <a class="proj-logo-link" href="https://shift-capital.ai" target="_blank" rel="noopener"><img class="proj-logo" src="assets/projects/shift-capital.svg" alt="Shift Capital" /></a>
+          <p>AI-powered payment plans for Vehicle Service Contracts.</p>
         </div>
       </div>
     </div>

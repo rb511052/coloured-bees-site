@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="Shift Capital">
+  <!-- dot-grid mark -->
+  <g fill="#111111">
+    <circle cx="14" cy="22" r="4.5"/>
+    <circle cx="14" cy="40" r="4.5"/>
+    <circle cx="14" cy="58" r="4.5"/>
+    <circle cx="36" cy="22" r="8"/>
+    <circle cx="36" cy="40" r="8"/>
+    <circle cx="36" cy="58" r="8"/>
+    <circle cx="60" cy="22" r="8"/>
+    <circle cx="58" cy="40" r="4.5"/>
+    <circle cx="60" cy="58" r="8"/>
+  </g>
+  <text x="84" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#111111">Shift Capital</text>
+</svg>
