@@ -102,22 +102,6 @@
       .hero { padding-bottom: 56px; }
     }
 
-    /* Button (Honey bg, Ink text, 8px radius) */
-    .btn {
-      display: inline-block;
-      font-family: var(--font-body);
-      font-weight: 600;
-      font-size: 17px;
-      color: var(--ink);
-      background: var(--honey);
-      padding: 14px 26px;
-      border-radius: 8px;
-      border: none;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .btn:hover { filter: brightness(0.96); }
-
     /* Services — Teal-accented, on Mist */
     .services {
       background: var(--mist);
@@ -156,6 +140,22 @@
     .label-v { color: var(--violet); }
     .hex-v { background: var(--violet); }
 
+    /* Projects — Honey-accented, on Mist */
+    .projects {
+      background: var(--mist);
+      padding: 80px 0;
+    }
+    .label-h { color: var(--honey); }
+    .hex-h { background: var(--honey); }
+    .proj-domain {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      color: var(--teal);
+      text-decoration: none;
+    }
+    .proj-domain:hover { text-decoration: underline; }
+
     /* Footer — Ink bg */
     footer {
       background: var(--ink);
@@ -165,7 +165,31 @@
     footer .mark { height: 56px; width: auto; display: block; margin-bottom: 20px; }
     footer .company { font-family: var(--font-display); font-weight: 700; font-size: 20px; color: var(--paper); }
     footer .contact { font-family: var(--font-mono); font-size: 14px; letter-spacing: 0.04em; color: #C9C2B6; margin-top: 8px; }
-    footer .fine { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--stone); margin-top: 28px; }
+    footer .fine { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--stone); margin-top: 36px; }
+    footer .addresses {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 32px 48px;
+      max-width: 600px;
+      margin-top: 36px;
+    }
+    @media (max-width: 560px) { footer .addresses { grid-template-columns: 1fr; } }
+    footer .addr-label {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--stone);
+      margin: 0 0 10px;
+    }
+    footer .addr {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #C9C2B6;
+      margin: 0;
+      font-style: normal;
+    }
   </style>
 </head>
 <body>
@@ -183,7 +207,6 @@
       <p class="label">Venture Studio &middot; Startup Consulting</p>
       <h1>We build startups — and help founders build theirs.</h1>
       <p class="lede">Coloured Bees is a venture studio and startup consultancy working at the frontier of AI, consumer tech, and fintech &amp; Web3. We turn early ideas into companies, and help founders move faster.</p>
-      <span class="btn">Let's talk</span>
     </div>
   </section>
 
@@ -227,12 +250,55 @@
     </div>
   </section>
 
+  <!-- PROJECTS — Honey accent -->
+  <section class="projects">
+    <div class="wrap">
+      <p class="label label-h">Current projects</p>
+      <h2 style="font-size:clamp(28px,4vw,40px);max-width:18ch;">What we're working on.</h2>
+      <div class="grid">
+        <div class="service">
+          <h3><span class="hex hex-h"></span>Follow Alice</h3>
+          <p><a class="proj-domain" href="https://followalice.com" target="_blank" rel="noopener">followalice.com</a></p>
+        </div>
+        <div class="service">
+          <h3><span class="hex hex-h"></span>Chaiz</h3>
+          <p><a class="proj-domain" href="https://chaiz.com" target="_blank" rel="noopener">chaiz.com</a></p>
+        </div>
+        <div class="service">
+          <h3><span class="hex hex-h"></span>Shift Capital</h3>
+          <p><a class="proj-domain" href="https://shift-capital.ai" target="_blank" rel="noopener">shift-capital.ai</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER — Ink -->
   <footer>
     <div class="wrap">
       <img class="mark" src="assets/logo-mark-inverse.svg" alt="" aria-hidden="true" />
       <div class="company">Coloured Bees Consulting GmbH</div>
       <div class="contact">hello@colouredbees.com</div>
+      <div class="addresses">
+        <div>
+          <p class="addr-label">Postal address</p>
+          <address class="addr">
+            Coloured Bees Consulting GmbH<br />
+            c/o Mattig-Suter und Partner<br />
+            Baarerstrasse 8<br />
+            6300 Zug<br />
+            Switzerland
+          </address>
+        </div>
+        <div>
+          <p class="addr-label">Office</p>
+          <address class="addr">
+            Coloured Bees Consulting GmbH<br />
+            Dammstrasse 16<br />
+            6300 Zug<br />
+            Switzerland
+          </address>
+        </div>
+      </div>
       <div class="fine">&copy; 2026 Coloured Bees Consulting</div>
     </div>
   </footer>
