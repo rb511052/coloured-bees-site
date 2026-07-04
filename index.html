@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Coloured Bees Consulting</title>
-  <meta name="description" content="Coloured Bees — a venture studio and startup consultancy building at the frontier of AI, consumer tech, and fintech & Web3." />
+  <meta name="description" content="Coloured Bees – a venture studio and startup consultancy building at the frontier of AI, consumer tech, and fintech & Web3." />
   <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
 
   <!-- Brand fonts -->
@@ -69,9 +69,10 @@
 
     /* Header */
     header {
-      padding: 24px 0;
+      padding: 32px 0 16px;
     }
-    header .logo { height: 40px; width: auto; display: block; }
+    header .logo { height: 52px; width: auto; display: block; }
+    @media (max-width: 560px) { header .logo { height: 44px; } }
 
     /* Hero */
     .hero {
@@ -91,9 +92,9 @@
     }
     .swarm {
       position: absolute;
-      right: -40px;
+      right: 24px;
       top: 40px;
-      width: min(46vw, 460px);
+      width: min(42vw, 440px);
       opacity: 0.9;
       pointer-events: none;
     }
@@ -102,7 +103,7 @@
       .hero { padding-bottom: 56px; }
     }
 
-    /* Services — Teal-accented, on Mist */
+    /* Services – Teal-accented, on Mist */
     .services {
       background: var(--mist);
       padding: 80px 0;
@@ -133,14 +134,14 @@
 
     .grid-2 { grid-template-columns: repeat(2, 1fr); }
 
-    /* Focus — Violet-accented */
+    /* Focus – Violet-accented */
     .focus {
       padding: 88px 0;
     }
     .label-v { color: var(--violet); }
     .hex-v { background: var(--violet); }
 
-    /* Projects — Honey-accented, on Mist */
+    /* Projects – Honey-accented, on Mist */
     .projects {
       background: var(--mist);
       padding: 80px 0;
@@ -157,7 +158,7 @@
     .proj-logo-link:hover { opacity: 0.75; }
     .proj-logo { height: 34px; width: auto; display: block; margin-bottom: 14px; }
 
-    /* Footer — Ink bg */
+    /* Footer – Ink bg */
     footer {
       background: var(--ink);
       color: var(--mist);
@@ -201,17 +202,17 @@
     </div>
   </header>
 
-  <!-- HERO — Honey leads -->
+  <!-- HERO – Honey leads -->
   <section class="hero">
     <div class="wrap">
       <img class="swarm" src="assets/bee-swarm.svg" alt="" aria-hidden="true" />
       <p class="label">Venture Studio &middot; Startup Consulting</p>
-      <h1>We build startups — and help founders build theirs.</h1>
+      <h1>We build startups – and help founders build theirs.</h1>
       <p class="lede">Coloured Bees is a venture studio and startup consultancy working at the frontier of AI, consumer tech, and fintech &amp; Web3. We turn early ideas into companies, and help founders move faster.</p>
     </div>
   </section>
 
-  <!-- SERVICES — Teal accent -->
+  <!-- SERVICES – Teal accent -->
   <section class="services">
     <div class="wrap">
       <p class="label">What we do</p>
@@ -219,17 +220,17 @@
       <div class="grid grid-2">
         <div class="service">
           <h3><span class="hex"></span>Venture Studio</h3>
-          <p>We co-found and build companies from zero — bringing capital, craft, and hands-on operators to turn a sharp idea into a shipping product.</p>
+          <p>We co-found and build companies from zero – bringing capital, craft, and hands-on operators to turn a sharp idea into a shipping product.</p>
         </div>
         <div class="service">
           <h3><span class="hex"></span>Startup Consulting</h3>
-          <p>We advise founders and teams on strategy, product, and go-to-market — the outside perspective that helps you move with conviction.</p>
+          <p>We advise founders and teams on strategy, product, and go-to-market – the outside perspective that helps you move with conviction.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FOCUS — Violet accent -->
+  <!-- FOCUS – Violet accent -->
   <section class="focus">
     <div class="wrap">
       <p class="label label-v">Where we focus</p>
@@ -237,7 +238,7 @@
       <div class="grid">
         <div class="service">
           <h3><span class="hex hex-v"></span>AI</h3>
-          <p>Applied AI products and the teams building them — from first prototype to production.</p>
+          <p>Applied AI products and the teams building them – from first prototype to production.</p>
         </div>
         <div class="service">
           <h3><span class="hex hex-v"></span>Consumer Tech</h3>
@@ -251,12 +252,12 @@
     </div>
   </section>
 
-  <!-- PROJECTS — Honey accent -->
+  <!-- PROJECTS – Honey accent -->
   <section class="projects">
     <div class="wrap">
       <p class="label label-h">Current projects</p>
       <h2 style="font-size:clamp(28px,4vw,40px);max-width:18ch;">What we're working on.</h2>
-      <p class="intro">We build as owners, not advisors — Coloured Bees serves on the board of all three companies.</p>
+      <p class="intro">We build as owners, not advisors – Coloured Bees serves on the board of all three companies.</p>
       <div class="grid">
         <div class="service">
           <a class="proj-logo-link" href="https://followalice.com" target="_blank" rel="noopener"><img class="proj-logo" src="assets/projects/follow-alice.svg" alt="Follow Alice" /></a>
@@ -274,7 +275,7 @@
     </div>
   </section>
 
-  <!-- FOOTER — Ink -->
+  <!-- FOOTER – Ink -->
   <footer>
     <div class="wrap">
       <img class="mark" src="assets/logo-mark-inverse.svg" alt="" aria-hidden="true" />
