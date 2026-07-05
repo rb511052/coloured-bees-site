@@ -120,7 +120,7 @@
       gap: 40px 48px;
       margin-top: 40px;
     }
-    @media (max-width: 760px) { .grid { grid-template-columns: 1fr; gap: 32px; } }
+    @media (max-width: 760px) { .grid, .grid-2 { grid-template-columns: 1fr !important; gap: 32px; } }
 
     .service h3 {
       font-size: 22px;
@@ -163,6 +163,7 @@
     .proj-logo-link { display: inline-block; }
     .proj-logo-link:hover { opacity: 0.75; }
     .proj-logo { height: 34px; width: auto; display: block; margin-bottom: 14px; }
+    .proj-logo.lg { height: 42px; }
 
     /* Footer – Ink bg */
     footer {
@@ -278,7 +279,7 @@
           <p>AI-powered payment plans for Vehicle Service Contracts.</p>
         </div>
         <div class="service">
-          <a class="proj-logo-link" href="https://beetalist.ai" target="_blank" rel="noopener"><img class="proj-logo" src="assets/projects/beetalist.svg" alt="Beetalist" /></a>
+          <a class="proj-logo-link" href="https://beetalist.ai" target="_blank" rel="noopener"><img class="proj-logo lg" src="assets/projects/beetalist.svg" alt="Beetalist" /></a>
           <p>The hub where AI enthusiasts discover the next wave of tools.</p>
         </div>
       </div>
